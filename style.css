@@ -1,0 +1,21 @@
+  .affix {
+      top: 0;
+      width: 100%;
+      -webkit-transitionn: all .5s ease-in-out;
+      transitionn: all .5s ease-in-out;
+      background-color: #F44336;
+      border-color: #F44336;
+
+  }
+  .affix a {
+      color: #fff !important;
+      padding: 15px !important;
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+  }
+  .affix-top a {
+      padding: 12px !important;
+  }
+  .affix + .container-fluid {
+      padding-top: 95px;
+  }

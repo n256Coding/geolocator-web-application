@@ -1,0 +1,2 @@
+DB name     : login
+users Table : username varchar(15), pwd varchar(30), lname varchar(30)
